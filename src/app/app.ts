@@ -7,5 +7,5 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('my-app');
+  protected readonly title = signal('twisted-mounted-animation-assessment');
 }

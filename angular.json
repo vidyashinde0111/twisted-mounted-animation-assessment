@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-app": {
+    "twisted-mounted-animation-assessment": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -68,10 +68,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "my-app:build:production"
+              "buildTarget": "twisted-mounted-animation-assessment:build:production"
             },
             "development": {
-              "buildTarget": "my-app:build:development"
+              "buildTarget": "twisted-mounted-animation-assessment:build:development"
             }
           },
           "defaultConfiguration": "development"
