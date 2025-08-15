@@ -1,0 +1,16 @@
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th *ngFor="let header of headers">{{ header | titlecase }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let row of data" (click)="onRowClick($event, row.id)">
+                <td *ngFor="let header of headers">
+                    <input [(ngModel)]="row[header]" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

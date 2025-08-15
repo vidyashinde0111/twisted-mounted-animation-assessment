@@ -1,0 +1,12 @@
+<div class="details-container" *ngIf="item">
+    <button class="back-btn" (click)="goBack()">← Back to Table</button>
+
+    <h2 class="item-title">{{ item.name }}</h2>
+
+    <div class="item-details">
+        <p><strong>Language:</strong> {{ item.language }}</p>
+        <p><strong>ID:</strong> {{ item.id }}</p>
+        <p><strong>Bio:</strong> {{ item.bio }}</p>
+        <p><strong>Version:</strong> {{ item.version }}</p>
+    </div>
+</div>
